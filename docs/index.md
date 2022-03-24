@@ -8,8 +8,9 @@ Easily create a laser scanning microscope with 2 DVD pickups and "Analog Discove
 ![equipment overview](20220317_205448.jpg)
 
 #### Imaging result 
+
+![imaging_result](imaging_result_pdic.png)  
 Dieshot of Photodetector IC.
-![imaging_result](imaging_result_pdic.png)
 
 ## What you need
 * DVD pickup x2
@@ -103,6 +104,7 @@ Normalize to the range of 0-255 and perform gamma correction or histogram equali
 ### DVD pickup PDIC
 #### Laser scanning microscope
 ![imaging_result](imaging_result_pdic.png)  
+(![imaging_result](dieshot_small.jpg))[dieshot_big.png]
 
 #### Typical microscope
 ![imaging_result](20220314_203503_.jpg)  
