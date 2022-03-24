@@ -29,6 +29,11 @@ I didn't use FFC and pulled the wires out with UEW. Wiring by UEW was painful to
 ## Overview
 A microscope can be made by scanning a laser spot horizontally and vertically across a sample, measuring the intensity of the reflected light, and making an image.
 
+This technology allows the laser spot to be precisely aligned with the sample in um increments.  
+We believe that this technology can be applied to fault injection attacks on LSIs by irradiating silicon dies with lasers.
+By controlling the lighting timing of the laser, it may be possible to "invert only a specific bit of memory at an arbitrary timing".
+
+## Scanning method
 The objective lens of the pickup has two voice coil motors for focusing and tracking, and can be moved in two axes.  
 To make a microscope, each of the X and Y axes must be driven and scanned in addition to the Z axis of focus. The two axes of the objective lens are not enough for one axis, so a mechanism to drive the other axis must be created.  
 Various methods have been proposed to compensate for the missing one axis.  
