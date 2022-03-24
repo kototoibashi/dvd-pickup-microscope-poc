@@ -4,7 +4,11 @@ Easily create a laser scanning microscope with 2 DVD pickups and "Analog Discove
 * 日本語版  Original article (Japanese) 
   * [DVDピックアップでレーザー走査型顕微鏡を作る](https://kuriuzublog.wordpress.com/2022/03/22/dvd-pickup-microscope/)
 
+#### Equipment overview
 ![equipment overview](20220317_205448.jpg)
+
+#### Imaging result 
+Dieshot of Photodetector IC.
 ![imaging_result](imaging_result_pdic.png)
 
 ## What you need
@@ -70,9 +74,12 @@ V- of Supply is used to drive the voice coil motor of the second pickup, which i
 ## Program
 
 This is a project file that can be used with Waveforms, the software that comes with AnalogDiscovery.  
-[dvd_pickup_laser_microscope.dwf3script](https://drive.google.com/file/d/1rBREtw0926dvjQdz5E7gK1pGIUHG2tq1/view?usp=sharing)
+[dvd_pickup_laser_microscope.dwf3script](https://github.com/kototoibashi/dvd-pickup-microscope-poc/raw/master/analogdiscovery/dvd_pickup_laser_microscope.dwf3script)
 
 ### Focusing
+
+[focus.js](https://github.com/kototoibashi/dvd-pickup-microscope-poc/blob/master/analogdiscovery/focus.js)
+
 Before taking an image, please run this to adjust the focus.   
 If the value is outside the ±200 range, the focus is not correct, so adjust the distance between the objective lens and the object.   
 
@@ -80,6 +87,7 @@ Originally, it would be correct to use the astigmatism method for focusing, but 
 The operation is to move the position of the objective lens to find the position where the reflected light is maximized.
 
 ### Image Acquisition
+[acquision.js](https://github.com/kototoibashi/dvd-pickup-microscope-poc/blob/master/analogdiscovery/acquision.js)
 
 Change `FILENAME` and `SCAN_LINES` before executing.
 
@@ -92,7 +100,7 @@ Normalize to the range of 0-255 and perform gamma correction or histogram equali
 
 ## Imaging result
 
-### Photodetector IC
+### DVD pickup PDIC
 #### Laser scanning microscope
 ![imaging_result](imaging_result_pdic.png)  
 
