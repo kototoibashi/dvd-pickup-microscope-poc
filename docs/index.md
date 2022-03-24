@@ -104,7 +104,7 @@ Normalize to the range of 0-255 and perform gamma correction or histogram equali
 ### DVD pickup PDIC
 #### Laser scanning microscope
 ![imaging_result](imaging_result_pdic.png)  
-![imaging_result](dieshot_big.png)
+[![imaging_result](dieshot_small.jpg)](dieshot_big.png)
 
 #### Typical microscope
 ![imaging_result](20220314_203503_.jpg)  
@@ -112,7 +112,7 @@ Normalize to the range of 0-255 and perform gamma correction or histogram equali
 ![imaging_result](20220314_204027_2.jpg)  
 
 ##  Reverse engineering "`HOP-150X`" pickup
-see also: (DVDピックアップの解析)[https://kuriuzublog.wordpress.com/2022/03/15/hop150x-dvd-pickup-reverse-engineering/]
+see also: [DVDピックアップの解析](https://kuriuzublog.wordpress.com/2022/03/15/hop150x-dvd-pickup-reverse-engineering/)
 
 ### Laser Diode
 
