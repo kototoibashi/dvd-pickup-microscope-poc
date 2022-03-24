@@ -1,0 +1,2 @@
+* English [Super easy way to make a microscope with a DVD pickup](https://kototoibashi.github.io/dvd-pickup-microscope-poc/)
+* 日本語 (Japanese) [DVDピックアップでレーザー走査型顕微鏡を作る](https://kuriuzublog.wordpress.com/2022/03/22/dvd-pickup-microscope/)
