@@ -4,10 +4,13 @@ Easily create a laser scanning microscope with 2 DVD pickups and "Analog Discove
 * 日本語版  Original article (Japanese) 
   * [DVDピックアップでレーザー走査型顕微鏡を作る](https://kuriuzublog.wordpress.com/2022/03/22/dvd-pickup-microscope/)
 
+![equipment overview](20220317_205448.jpg)
+![imaging_result](imaging_result_pdic.png)
+
 ## What you need
 * DVD pickup x2
-  * I used "HOP-150X" pickup. You can buy it on AliExpress for 3 USD. 
-  * you can use other pickups with known control methods, such as the "PHR-803T".
+  * I used "`HOP-150X`" pickup. You can buy it on AliExpress for 3 USD. 
+  * you can use other pickups with known control methods, such as the "`PHR-803T`".
 * Analog Discovery 2 x1
   * I think the first AnalogDiscovery could also be used.
 * Resistor 100Ω x2
@@ -85,3 +88,49 @@ It is recommended to first get a rough image around 50 - 200, and if it looks go
 
 Convert the output CSV file to an image and you will get the results of the imaging.  
 Normalize to the range of 0-255 and perform gamma correction or histogram equalization to get a nice image.  
+
+
+## Imaging result
+
+### Photodetector IC
+#### Laser scanning microscope
+![imaging_result](imaging_result_pdic.png)  
+
+#### Typical microscope
+![imaging_result](20220314_203503_.jpg)  
+![imaging_result](20220314_204027_.jpg)  
+![imaging_result](20220314_204027_2.jpg)  
+
+##  Reverse engineering "`HOP-150X`" pickup
+see also: (DVDピックアップの解析)[https://kuriuzublog.wordpress.com/2022/03/15/hop150x-dvd-pickup-reverse-engineering/]
+
+### Laser Diode
+
+![Laser Diode](20220315_185013_.jpg)
+
+|  Pin No.  |  Name  |
+| ---- | ---- |
+|  1  |  RED LD +  |
+|  2  |  GND  |
+|  3  |  ?  |
+|  2  |  Infrared LD +  |
+
+### Photodetector IC
+![PDIC](20220314_203503_.jpg)  
+
+| Pin No. | Name | Type | Note |
+| -- | -- | -- | -- |
+|1|Vcc|POWER|+5V|
+|2|RF-|Diff OUT||
+|3|RF+|Diff OUT||
+|4|OUT1|Analog OUT|20mVp-p|
+|5|OUT2|Analog OUT|20mVp-p|
+|6|OUT3|Analog OUT|120mVp-p|
+|7|OUT4|Analog OUT|120mVp-p|
+|8|MODE_SELECT|Digital IN|L: DVD / H: CD ?|
+|9|OUT5|Analog OUT|120mVp-p|
+|10|OUT6|Analog OUT|120mVp-p|
+|11|OUT7|Analog OUT|20mVp-p|
+|12|OUT8|Analog OUT|20mVp-p|
+|13|Vref|POWER|2.0 - 2.5V ?|
+|14|GND|POWER||
