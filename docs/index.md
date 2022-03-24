@@ -24,7 +24,7 @@ Dieshot of Photodetector IC.
 * fixture (like PCB holders)
 
 0.5mm pitch, 26-pin FFC (Flexible Flat Cable) and a conversion adapter make wiring easy.  
-I didn't use FFC and pulled the wires out with UEW. That process was painful to work because of the small soldering points.  
+I didn't use FFC and pulled the wires out with UEW. Wiring by UEW was painful to work because of the small soldering points.  
 
 ## Overview
 A microscope can be made by scanning a laser spot horizontally and vertically across a sample, measuring the intensity of the reflected light, and making an image.
