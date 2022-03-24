@@ -104,7 +104,7 @@ Normalize to the range of 0-255 and perform gamma correction or histogram equali
 ### DVD pickup PDIC
 #### Laser scanning microscope
 ![imaging_result](imaging_result_pdic.png)  
-(![imaging_result](dieshot_small.jpg))[dieshot_big.png]
+![imaging_result](dieshot_big.png)
 
 #### Typical microscope
 ![imaging_result](20220314_203503_.jpg)  
