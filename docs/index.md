@@ -29,7 +29,7 @@ I didn't use FFC and pulled the wires out with UEW. Wiring by UEW was painful to
 <p align="center">
   <img src="HTB127OhJFzqK1RjSZSgq6ApAVXaN.jpg" alt="Example of FFC conversion board available on AliExpress" width="50%">
 </p>
-([Example of FFC conversion board available on AliExpress](https://www.aliexpress.com/item/32982483720.html). Not sure if this will fit. The pin count doesn't match, but if you cut the FFC to 26 pins, it could be used. )  
+( [Example of FFC conversion board available on AliExpress.](https://www.aliexpress.com/item/32982483720.html) Not sure if this will fit. The pin count doesn't match, but if you cut the FFC to 26 pins, it could be used. )  
 
 ## Overview
 A microscope can be made by scanning a laser spot horizontally and vertically across a sample, measuring the intensity of the reflected light, and making an image.
