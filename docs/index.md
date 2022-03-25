@@ -155,3 +155,9 @@ see also: [DVDピックアップの解析](https://kuriuzublog.wordpress.com/202
 |12|OUT8|Analog OUT|20mVp-p|
 |13|Vref|POWER|2.0 - 2.5V ?|
 |14|GND|POWER||
+
+### Remove solder jumper
+Brand-new pickups are shorted by solder jumpers to prevent LDs from being destroyed by static electricity.  
+The solder jumper must be removed before use.  
+
+![solder jumper position](20220315_220735_.jpg)
