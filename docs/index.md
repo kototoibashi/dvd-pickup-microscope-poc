@@ -65,7 +65,7 @@ Use a linear stage driven by a stepping motor.
     * Large range of motion.
   * Cons
     * Difficult to make.
-    * Poor characteristics (backlash, vibration, etc.)
+    * Poor characteristics (backlash, large step resolution, etc.)
 
 ### Speaker as linear actuator
 Use speaker as linear actuator.
