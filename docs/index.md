@@ -66,7 +66,7 @@ Use a linear stage driven by a stepping motor.
   * Cons
     * Difficult to make.
     * Expensive.
-    * Cheap actuator is poor characteristics. (backlash, large step resolution, etc.)
+    * Cheap actuators usually have poor characteristics. (backlash, large step resolution, etc.).
 
 ### Speaker as linear actuator
 Use speaker as linear actuator.
