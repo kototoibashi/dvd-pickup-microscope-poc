@@ -54,7 +54,7 @@ Add a pickup dedicated to sample movement. Fix the sample on the objective lens 
   * Easy to make.
   * Good characteristics.
 * Cons
-  * The size of the sample is limited (weight would be limited to about 1 g).
+  * The size of the sample is limited. (weight would be limited to about 1 g)
   * The range of motion is narrow.
 
 ### Linear stage
@@ -65,7 +65,8 @@ Use a linear stage driven by a stepping motor.
     * Large range of motion.
   * Cons
     * Difficult to make.
-    * Poor characteristics (backlash, large step resolution, etc.)
+    * Expensive.
+    * Cheap actuator is poor characteristics. (backlash, large step resolution, etc.)
 
 ### Speaker as linear actuator
 Use speaker as linear actuator.
