@@ -23,7 +23,7 @@ Dieshot of Photodetector IC.
 * some cables
 * fixture (like PCB holders)
 
-0.5mm pitch, 26-pin FFC (Flexible Flat Cable) and a conversion adapter make wiring easy.  
+0.5mm pitch, 26-pin FFC (Flexible Flat Cable) and a conversion adapter make wiring easy. [Issue #1 "26 pins socket pinout"](https://github.com/kototoibashi/dvd-pickup-microscope-poc/issues/1)  
 I didn't use FFC and pulled the wires out with UEW. Wiring by UEW was painful because the soldering points were small.   
 
 <p align="center">
@@ -83,6 +83,8 @@ The +5V power supply is taken from V+ of Supply in AD2.
 The signal outputs ch1 and ch2 are connected to the voice coil to move the objective lens in the focus and X-axis directions.  
 V- of Supply is used to drive the voice coil motor of the second pickup, which is in charge of the Y-axis. This only uses half of the range of motion, but it is unavoidable.  
 
+Wiring work becomes easier by using FFC connectors.  
+[Issue #1 "26 pins socket pinout"](https://github.com/kototoibashi/dvd-pickup-microscope-poc/issues/1) provides an analysis of the wiring for the 26-pin FFC connector.  
 
 ## Program
 
